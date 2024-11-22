@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+button{
+    background-color: #d08b5d;
+    border: 2px solid black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 22px;
+}
+
+img{
+    width: 100%;
+}
+.main{
+    width: 100vw;
+    /* height: 100vh; */
+    background: #16A784;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 200px; */
+    padding: 18px;
+    margin: 18px;
+}
+.card-back{
+    background: url(img/Rectangle\ 1.png);
+    width: 100%;
+    /* height: 70%; */
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: end;
+}
+.card-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* z-index: 3; */
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+.porfile-img{
+    width: 50%;
+    /* z-index: 1; */
+    margin-top: 15px;
+}
+.porfile-img img{
+    border-radius: 50%;
+}
+.profile-info{
+    background-color: bisque;
+    /* text-align: center; */
+    border-radius: 10px;
+}
+h1{
+    font-size: 3rem;
+    margin: 10px;
+}
+.location{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    left: 118px;
+    padding: 9px;
+}
+.location img{
+    margin: 5px;
+}
+.follow{
+    display: flex;
+    align-items: center;
+    /* text-align: center; */
+    justify-content: center;
+    justify-content: space-around;
+}
+.bio{
+    font-size: 1.3rem;
+    text-align: center;
+    /* margin: -1px; */
+    padding: 10px;  
+}
+@media(min-width:600px){
+    .main{
+        /* background: red; */
+        padding: 64px;
+        margin: 18px;
+        width: 54vw;
+    }
+    /* .card-back{
+        background-size: 62%;
+    } */
+    /* .card-main{
+        padding: 0px 154px;
+    } */
+    .location{
+        margin: 0px 35px;
+    }
+    /* .porfile-img{
+        position: relative;
+        top: 24px;
+    } */
+  
+}
+@media(min-width:1000px){
+    .main{
+        /* background: yellow; */
+        width: 40vw;
+        padding: 64px;
+        margin: 18px;
+    }
+    .location{
+        margin: 0px;
+        left: 132px;
+    }
+}
+@media(min-width:1308px){
+    /* .main{
+        background-color: blue;
+    } */
+    .location{
+        left: 140px;
+    }
+}
+@media(min-width:1500px){
+    /* .main{
+        background-color: red;
+    } */
+  
+    .location{
+        left: 262px;
+    }
+    .location img{
+        width: 37%;
+    }
+    .bio{
+        font-size: 2.3rem;
+    }
+}
