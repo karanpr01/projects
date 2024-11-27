@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+body{
+    border: 10px solid blue;
+}
+
+.main,
+.info{
+    /* height: 100vh; */
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    /* justify-content: space-around; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+/* .img{
+    height: 40%;
+    width: 43%;
+    background-color: blue;
+} */
+.title{
+    /* height: 40%; */
+    /* width: 43%; */
+    /* background-color: yellow; */
+    margin: 15px;
+    text-align: center;
+}
+
+.fsize{
+    font-size: 3rem;
+    /* font-size: calc(3.375rem + 1.5vw); */
+    text-align: center;
+    margin: 10px;
+}
+
+.intro,
+.bio{
+    /* height: 80%; */
+    width: 80%;
+    /* background-color: green; */
+    font-size: 1.5rem;
+    font-weight: bold;
+   margin: 10px;
+}
+.bio-title{
+    font-size: 2rem;
+    font-weight: bolder;
+}
