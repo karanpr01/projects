@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+
+.card{
+    /* background-color: aqua;
+    align-content: center; */
+    width: 80%;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    color: #fff;
+    padding: 10px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.input-group{
+    width: 80%;
+    border-radius: 10px;
+}
+.temp{
+    font-size: 6rem;
+}
+
+.humidity > img{
+    width: 33%;
+    margin: 10px
+}
+.wind-speed > img{
+    width: 33%;
+    margin: 10px
+}
+
+.card-foot{
+    margin: 20px;
+}
