@@ -6,6 +6,12 @@
 img{
     max-width: 100%;
 }
+body{
+    background-color: #313131;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .card{
     /* background-color: aqua;
@@ -14,6 +20,7 @@ img{
     background: linear-gradient(135deg, #00feba, #5b548a);
     color: #fff;
     padding: 10px;
+    border-radius: 34px;
 }
 .container{
     display: flex;
@@ -40,4 +47,11 @@ img{
 
 .card-foot{
     margin: 20px;
+}
+.main{
+    display: none;
+}
+
+.humidity{
+    margin-bottom: 30px;
 }
